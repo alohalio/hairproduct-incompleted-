@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: cloud-lucent;
+    src: url(Cloud\ Lucent-Regular.ttf);
+    font-family: dosis;
+    src: url(Dosis-VariableFont_wght.ttf);
+}
+
+body{
+    width: 100%;
+    min-width: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(wallpaper.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.5%;
+}
+
+.form{
+    width: 400px;
+    min-height: 400px;
+    background-color: whitesmoke;
+    padding: 40px 100px;
+    box-shadow: 0 0 5px rgba(0,0,0,.4);
+    border-radius: 15px;
+}
+
+.form .signup_text{
+    color: black;
+    font-family: cloud-lucent;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.form #firstnameinput, .form #lastnameinput, .form #emailinput, .form #usernameinput, .form #passwordinput, .form #reenterpasswordinput{
+    color: black;
+    font-family: cloud-lucent;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.form #firstnameinput input[type = "text"], .form #lastnameinput input[type = "text"], .form #emailinput input[type = "text"],
+.form #usernameinput input[type = "text"], .form #passwordinput input[type = "password"], .form #reenterpasswordinput input[type = "password"]{
+    width: 200px;
+    height: 30px;
+    border: 0;
+    background: whitesmoke;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #3498db;
+    padding: 12px 10px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    border-width: 2.5px;
+    transition: 0.25s;
+}
+
+.form #firstnameinput input[type = "text"]:focus, .form #lastnameinput input[type = "text"]:focus, .form #emailinput input[type = "text"]:focus,
+.form #usernameinput input[type = "text"]:focus, .form #passwordinput input[type = "password"]:focus, .form #reenterpasswordinput input[type = "password"]:focus{
+    border-color: #00b894;
+}
+
+.form #agreement{
+    text-align: right;
+}
+
+.form #agreement label{
+    color: black;
+    font-family: cloud-lucent;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.form #signupbutton input[type = "submit"]{
+    border: 0;
+    background: #3498db;
+    display: block;
+    margin: 20px auto;
+    padding: 12px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    width: 120px;
+    transition: 0.25s;
+    font-family: dosis;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form #signupbutton input[type = "submit"]:hover{
+    background-color: #2ecc71;
+}
+
+.form .button .signin_button{
+    border: 0;
+    background: #3498db;
+    display: block;
+    margin: 20px auto;
+    padding: 12px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    width: 122px;
+    transition: 0.25s;
+    font-family: dosis;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form .login_regis_text{
+    font-weight: bold;
+    text-align: center;
+}
+
+.form .button .signin_button:hover{
+    background-color: #2ecc71;
+}

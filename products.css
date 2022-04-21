@@ -1,0 +1,445 @@
+img{
+    width: 220px;
+    position: relative;
+    left: -50px;
+    top:10px;
+    
+}
+
+div#header{
+    position: absolute;
+    width: 100px;
+    height: 0px;
+    left: 46.3%;
+    top: 11px;
+}
+
+#header a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+div#noinput{
+    position: absolute;
+    width: 200px;
+    height: 0px;
+    left: 500%;
+    top: 50px;
+}
+
+div#addtocartbutton{
+    position: absolute;
+    width: 200px;
+    height: 0px;
+    left: 570%;
+    top: 100px;
+}
+
+div#pinksunsilk{
+    position: absolute;
+    width: 200px;
+    height: 0px;
+    left: -5%;
+    top: 120px;
+}
+
+#pinksunsilk a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+div#pinkinfo{
+    position: absolute;
+    width: 1000px;
+    height: 0px;
+    left: -120%;
+    top: 350px;
+}
+
+#pinkinfo a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+div#purplesunsilk{
+    position: absolute;
+    width: 200px;
+    height: 0px;
+    left: 46.3%;
+    top: 450px;
+}
+
+#purplesunsilk a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+div#purpleinfo{
+    position: absolute;
+    width: 1000px;
+    height: 0px;
+    left: 36.5%;
+    top: 767px;
+}
+
+#purpleinfo a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+div#yellowsunsilk{
+    position: absolute;
+    width: 200px;
+    height: 0px;
+    left: 46.3%;
+    top: 867px;
+}
+
+#yellowsunsilk a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+div#yellowinfo{
+    position: absolute;
+    width: 1000px;
+    height: 0px;
+    left: 36.5%;
+    top: 1134px;
+}
+
+#yellowinfo a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+div#npinksunsilk{
+    position: absolute;
+    width: 200px;
+    height: 0px;
+    left: 46.3%;
+    top: 1234px;
+}
+
+#npinksunsilk a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+div#npinkinfo{
+    position: absolute;
+    width: 1000px;
+    height: 0px;
+    left: 39.5%;
+    top: 1501px;
+}
+
+#npinkinfo a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+div#blacksunsilk{
+    position: absolute;
+    width: 200px;
+    height: 0px;
+    left: 46.3%;
+    top: 1601px;
+}
+
+#blacksunsilk a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+div#blackinfo{
+    position: absolute;
+    width: 1000px;
+    height: 0px;
+    left: 25.5%;
+    top: 1870px;
+}
+
+#blackinfo a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+div#greensunsilk{
+    position: absolute;
+    width: 200px;
+    height: 0px;
+    left: 46.3%;
+    top: 1970px;
+}
+
+#greensunsilk a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+div#greeninfo{
+    position: absolute;
+    width: 1000px;
+    height: 0px;
+    left: 39.5%;
+    top: 2230px;
+}
+
+#greeninfo a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+/* .sun{
+    position: relative;
+    bottom: 6.5cm;
+    left: 5.5cm;
+}
+
+
+.ml{
+    position: relative;
+    bottom: 5cm;
+    left: 5.5cm;
+}
+
+.Q{
+    position: relative;
+    bottom: 4.5cm;
+    left: 5.5cm;
+}
+
+.price{
+    position: relative;
+    bottom: 4.5cm;
+    left: 25cm;
+}
+
+.pp{
+    position: relative;
+    bottom: 9cm;
+    left: 5.5cm;
+}
+
+.m{
+    position: relative;
+    bottom: 7cm;
+    left: 5.5cm;
+}
+
+.Qt{
+    position: relative;
+    bottom: 6.5cm;
+    left: 5.5cm;
+}
+
+.prices{
+    position: relative;
+    bottom: 7.3cm;
+    left: 25cm;
+}
+
+ .he{
+     background-color: black;
+     color: white;
+     text-align: center;
+ }
+
+ .cart{
+     width: 25px;
+     position: relative;
+     left: 0.1cm;
+     color: white;
+     
+     
+ }
+
+ .pricess{
+    position: relative;
+    bottom: 10.3cm;
+    left: 25cm;
+
+ }
+
+ .pricesss{
+    position: relative;
+    bottom: 7.3cm;
+    left: 25cm;
+ }
+ 
+ .pricex{
+    position: relative;
+    bottom: 7.3cm;
+    left: 25cm;
+ }
+
+ .pricexx{
+    position: relative;
+    bottom: 7.3cm;
+    left: 25cm;
+ }
+
+ .ppp{
+    position: relative;
+    bottom: 12cm;
+    left: 5.5cm;
+ }
+
+.mll{
+    position: relative;
+    bottom: 10cm;
+    left: 5.5cm;
+}
+
+.pppx{
+    position: relative;
+    bottom: 14.5cm;
+    left: 5.5cm;
+}
+
+.mlll{
+    position: relative;
+    bottom: 12.3cm;
+    left: 5.5cm;
+}
+
+.pricesss{
+    position: relative;
+    bottom: 12.3cm;
+    left: 25cm;
+}
+
+.pppp{
+    position: relative;
+    bottom: 16.5cm;
+    left: 6.2cm;
+}
+
+.mllll{
+    position: relative;
+    bottom: 14.3cm;
+    left: 6.2cm;
+}
+
+.pricex{
+    position: relative;
+    bottom: 14.8cm;
+    left: 25cm;
+
+}
+
+.pppxx{
+    position: relative;
+    bottom: 18.5cm;
+    left: 6.2cm;
+}
+
+.mx{
+    position: relative;
+    bottom: 16.3cm;
+    left: 6.2cm;
+}
+
+.pricexx{
+    position: relative;
+    bottom: 16.5cm;
+    left: 25cm;
+}
+
+.faddtocartbutton{
+    width: 150px; 
+    position: relative; 
+    left: 22cm; 
+    bottom: 4.5cm; 
+    height: 25px; 
+    text-align: center;
+}
+
+.saddtocartbutton{
+    width: 150px; 
+    position: relative; 
+    left: 22cm; 
+    bottom: 7.5cm; 
+    height: 25px; 
+    text-align: center;
+}
+
+.thaddtocartbutton{
+    width: 150px; position: relative; 
+        left: 22cm; bottom: 10.2cm; height: 25px; text-align: center;
+}
+
+.foaddtocartbutton{
+    width: 150px; position: relative; 
+        left: 22cm; bottom: 12.35cm; height: 25px; text-align: center;
+}
+
+.fifaddtocartbutton{
+    width: 150px; position: relative; 
+        left: 22cm; bottom: 14.7cm; height: 25px; text-align: center;
+}
+
+.sixaddtocartbutton{
+    width: 150px; position: relative; 
+        left: 22cm; bottom: 16.65cm; height: 25px; text-align: center;
+}
+
+.vio{
+    position: relative; 
+    bottom: 3cm;
+}
+
+.yell{
+    position: relative; 
+    bottom: 5.6cm;
+}
+
+.pink{
+    position: relative; 
+    bottom: 7.8cm;
+}
+
+.black{
+    position: relative; 
+    bottom: 10cm;
+}
+
+.green{
+    position: relative; 
+    bottom: 12cm;
+}
+
+.confirm{
+    width: 150px; height: 30px; text-align: center; 
+    position: relative; bottom: 12cm; left: 7cm; font-size: larger;
+}
+
+.cancel{
+    width: 150px; height: 30px; text-align: center;
+    position: relative; bottom: 13.5cm; left: 14cm; font-size: larger;
+}

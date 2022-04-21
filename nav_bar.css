@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cloud-lucent;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: cloud-lucent;
+    src: url(Cloud\ Lucent-Regular.ttf);
+    font-family: dosis;
+    src: url(Dosis-VariableFont_wght.ttf);
+}
+
+.container{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+.container .menu-bar{
+    width: 30px;
+    height: 38px;
+    position: relative;
+    left: 22px;
+    top: 12px;
+    display: inline;
+    float: left;
+}
+
+.container .menu-bar:hover{
+    cursor: pointer;
+}
+
+.container .menu-bar #line{
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 18px;
+}
+
+.container .logo a{
+    display: inline;
+    float: left;
+    color: white;
+    margin-top: 12px;
+    margin-left: 45.5%;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: cloud-lucent;
+    text-decoration: none;
+}
+
+.container .logo a:hover{
+    cursor: pointer;
+}
+
+.container .cart a{
+    display: inline;
+    float: left;
+    color: white;
+    margin-top: 16px;
+    margin-left: 44%;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: cloud-lucent;
+    text-decoration: none;
+}
+
+.container .cart a:hover{
+    cursor: pointer;
+}
+
+.container .popup{
+    margin-top: 50px;
+    position: absolute;
+    background-color: black;
+    width: 200px;
+    height: 100%;
+}
+.container .popup .menues{
+    padding: 0 20px;
+}
+
+.container .popup .menues .menu{
+    font-size: 12px;
+    font-weight: bold;
+    color: #f1f1f1;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.container .popup .menues .menu:hover{
+    cursor: pointer;
+}
+
+.container .popup .menues .menu a{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: dosis;
+    color: white;
+    text-decoration: none;
+}
+
+.bar1{
+    height: 14px;
+    width: 50px;
+    border-radius: 3px;
+    padding-top: 10px;
+}
+
+.bar2{
+    height: 14px;
+    width: 90px;
+    border-radius: 3px;
+    padding-top: 10px;
+}
+
+.bar3{
+    height: 14px;
+    width: 130px;
+    border-radius: 3px;
+    padding-top: 10px;
+}
+
+.bar4{
+    height: 14px;
+    width: 80px;
+    border-radius: 3px;
+    padding-top: 10px;
+}
+
+.bar5{
+    height: 14px;
+    width: 60px;
+    border-radius: 3px;
+    padding-top: 10px;
+}
+
+.bar6{
+    height: 14px;
+    width: 70px;
+    border-radius: 3px;
+    padding-top: 10px;
+}
+
+.per{
+    height: 2px;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    position: relative;
+    visibility: hidden;
+}
+
+.menu:hover .per{
+    visibility: visible;
+    animation: fillBars 2.5s 1;
+}
+
+
+@keyframes fillBars{
+    from{width: 0;}
+    to{width: 100%;}
+}

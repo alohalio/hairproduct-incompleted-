@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cloud-lucent;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: cloud-lucent;
+    src: url(Cloud\ Lucent-Regular.ttf);
+    font-family: dosis;
+    src: url(Dosis-VariableFont_wght.ttf);
+}
+
+.content .text{
+    display: block;
+    margin-bottom: 200px;
+    padding-top: 10px;
+    padding-left: 20px;
+    transition: 1.5s;
+}
+
+.content .text a{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: dosis;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.content .text #link:hover{
+    background: black;
+    color: white;
+    border-radius: 18px;
+}

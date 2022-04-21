@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: cloud-lucent;
+    src: url(Cloud\ Lucent-Regular.ttf);
+    font-family: dosis;
+    src: url(Dosis-VariableFont_wght.ttf);
+}
+
+body{
+    width: 100%;
+    min-width: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(wallpaper.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6.5%;
+}
+
+.container{
+    width: 500px;
+    min-height: 400px;
+    background-color: whitesmoke;
+    padding: 40px 100px;
+    box-shadow: 0 0 5px rgba(0,0,0,.4);
+    border-radius: 15px;
+}
+
+.container .form .head_text{
+    color: black;
+    font-family: cloud-lucent;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.container .input_group a{
+    color: black;
+    font-family: dosis;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: left;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.container .input_group input[type = "text"]{
+    width: 300px;
+    height: 30px;
+    border: 0;
+    background: whitesmoke;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #3498db;
+    padding: 12px 10px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    border-width: 2.5px;
+    transition: 0.25s;
+}
+
+.container .input_group input[type = "text"]:focus{
+    border-color: #2ecc71;
+}
+
+.container #submitbutton input[type = "submit"]{
+    border: 0;
+    background: #3498db;
+    display: block;
+    margin: 20px auto;
+    padding: 12px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    width: 120px;
+    transition: 0.25s;
+    font-family: dosis;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container #submitbutton input[type = "submit"]:hover{
+    background-color: #2ecc71;
+}
